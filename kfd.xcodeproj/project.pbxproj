@@ -11,31 +11,36 @@
 		297BA10B2A310AE100D1E51A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297BA10A2A310AE100D1E51A /* ContentView.swift */; };
 		297BA10D2A310AE200D1E51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297BA10C2A310AE200D1E51A /* Assets.xcassets */; };
 		297BA1112A310AE200D1E51A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297BA1102A310AE200D1E51A /* Preview Assets.xcassets */; };
+		354F2E102B49F3250036920F /* kfd-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 2965065D2A31565B0025D1A7 /* kfd-Bridging-Header.h */; };
+		354F2E112B49F32E0036920F /* libkfd.h in Sources */ = {isa = PBXBuildFile; fileRef = 2965065E2A31565B0025D1A7 /* libkfd.h */; };
+		354F2E172B49F4DF0036920F /* kfd.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 354F2E152B49F4DF0036920F /* kfd.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		290FDCD52A719E4F00A8BCAE /* dynamic_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamic_info.h; sourceTree = "<group>"; };
-		290FDCD62A719E5700A8BCAE /* static_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = static_info.h; sourceTree = "<group>"; };
-		2948BA6E2A3162FD00B2ED3C /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		2948BA6F2A31630800B2ED3C /* info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
-		2948BA702A31631000B2ED3C /* krkw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krkw.h; sourceTree = "<group>"; };
-		2948BA712A31631C00B2ED3C /* puaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = puaf.h; sourceTree = "<group>"; };
-		2948BA722A31636600B2ED3C /* physpuppet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = physpuppet.h; sourceTree = "<group>"; };
-		2948BA762A3163AB00B2ED3C /* kread_kqueue_workloop_ctl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kread_kqueue_workloop_ctl.h; sourceTree = "<group>"; };
-		2948BA772A3163B900B2ED3C /* kread_sem_open.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kread_sem_open.h; sourceTree = "<group>"; };
-		2948BA782A3163C500B2ED3C /* kwrite_dup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kwrite_dup.h; sourceTree = "<group>"; };
-		2948BA792A3163D200B2ED3C /* kwrite_sem_open.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kwrite_sem_open.h; sourceTree = "<group>"; };
-		2965065D2A31565B0025D1A7 /* kfd-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kfd-Bridging-Header.h"; sourceTree = "<group>"; };
-		2965065E2A31565B0025D1A7 /* libkfd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libkfd.h; sourceTree = "<group>"; };
+		290FDCD62A719E5700A8BCAE /* static_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = static_info.h; sourceTree = "<group>"; };
+		2948BA6E2A3162FD00B2ED3C /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = common.h; sourceTree = "<group>"; };
+		2948BA6F2A31630800B2ED3C /* info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = info.h; sourceTree = "<group>"; };
+		2948BA702A31631000B2ED3C /* krkw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = krkw.h; sourceTree = "<group>"; };
+		2948BA712A31631C00B2ED3C /* puaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = puaf.h; sourceTree = "<group>"; };
+		2948BA722A31636600B2ED3C /* physpuppet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = physpuppet.h; sourceTree = "<group>"; };
+		2948BA762A3163AB00B2ED3C /* kread_kqueue_workloop_ctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = kread_kqueue_workloop_ctl.h; sourceTree = "<group>"; };
+		2948BA772A3163B900B2ED3C /* kread_sem_open.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = kread_sem_open.h; sourceTree = "<group>"; };
+		2948BA782A3163C500B2ED3C /* kwrite_dup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = kwrite_dup.h; sourceTree = "<group>"; };
+		2948BA792A3163D200B2ED3C /* kwrite_sem_open.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = kwrite_sem_open.h; sourceTree = "<group>"; };
+		2965065D2A31565B0025D1A7 /* kfd-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "kfd-Bridging-Header.h"; sourceTree = "<group>"; };
+		2965065E2A31565B0025D1A7 /* libkfd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = libkfd.h; sourceTree = "<group>"; };
 		297BA1052A310AE100D1E51A /* kfd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kfd.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		297BA1082A310AE100D1E51A /* kfdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kfdApp.swift; sourceTree = "<group>"; };
+		297BA1082A310AE100D1E51A /* kfdApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = kfdApp.swift; sourceTree = "<group>"; };
 		297BA10A2A310AE100D1E51A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		297BA10C2A310AE200D1E51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		297BA10E2A310AE200D1E51A /* kfd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kfd.entitlements; sourceTree = "<group>"; };
 		297BA1102A310AE200D1E51A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		29A358F32A43B53300C297A1 /* smith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smith.h; sourceTree = "<group>"; };
-		29A765292A393FCB006617E8 /* perf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perf.h; sourceTree = "<group>"; };
-		29A7652A2A394110006617E8 /* landa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = landa.h; sourceTree = "<group>"; };
+		29A358F32A43B53300C297A1 /* smith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = smith.h; sourceTree = "<group>"; };
+		29A765292A393FCB006617E8 /* perf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = perf.h; sourceTree = "<group>"; };
+		29A7652A2A394110006617E8 /* landa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = landa.h; sourceTree = "<group>"; };
+		354F2E122B49F3A80036920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = Base.lproj/kfd.entitlements; sourceTree = "<group>"; };
+		354F2E142B49F4750036920F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = en; path = en.lproj/kfd.entitlements; sourceTree = "<group>"; };
+		354F2E162B49F4DF0036920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = kfd/Base.lproj/kfd.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,7 @@
 		297BA0FC2A310AE100D1E51A = {
 			isa = PBXGroup;
 			children = (
+				354F2E152B49F4DF0036920F /* kfd.entitlements */,
 				297BA1072A310AE100D1E51A /* kfd */,
 				297BA1062A310AE100D1E51A /* Products */,
 			);
@@ -132,7 +138,7 @@
 				297BA10C2A310AE200D1E51A /* Assets.xcassets */,
 				297BA10A2A310AE100D1E51A /* ContentView.swift */,
 				2965065D2A31565B0025D1A7 /* kfd-Bridging-Header.h */,
-				297BA10E2A310AE200D1E51A /* kfd.entitlements */,
+				354F2E132B49F3A80036920F /* kfd.entitlements */,
 				297BA1082A310AE100D1E51A /* kfdApp.swift */,
 				2948BA6A2A3162C600B2ED3C /* libkfd */,
 				2965065E2A31565B0025D1A7 /* libkfd.h */,
@@ -177,7 +183,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					297BA1042A310AE100D1E51A = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -210,6 +216,7 @@
 			files = (
 				297BA1112A310AE200D1E51A /* Preview Assets.xcassets in Resources */,
 				297BA10D2A310AE200D1E51A /* Assets.xcassets in Resources */,
+				354F2E172B49F4DF0036920F /* kfd.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,16 +229,39 @@
 			files = (
 				297BA10B2A310AE100D1E51A /* ContentView.swift in Sources */,
 				297BA1092A310AE100D1E51A /* kfdApp.swift in Sources */,
+				354F2E102B49F3250036920F /* kfd-Bridging-Header.h in Sources */,
+				354F2E112B49F32E0036920F /* libkfd.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		354F2E132B49F3A80036920F /* kfd.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354F2E122B49F3A80036920F /* Base */,
+				354F2E142B49F4750036920F /* en */,
+			);
+			name = kfd.entitlements;
+			sourceTree = "<group>";
+		};
+		354F2E152B49F4DF0036920F /* kfd.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354F2E162B49F4DF0036920F /* Base */,
+			);
+			name = kfd.entitlements;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		297BA1122A310AE200D1E51A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -261,9 +291,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -281,6 +313,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -290,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -319,9 +353,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -332,6 +368,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -343,11 +380,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = kfd/kfd.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"kfd/Preview Content\"";
-				DEVELOPMENT_TEAM = 4YW3B9LRX5;
+				DEVELOPMENT_TEAM = FDD437X3NF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,11 +424,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = kfd/kfd.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"kfd/Preview Content\"";
-				DEVELOPMENT_TEAM = 4YW3B9LRX5;
+				DEVELOPMENT_TEAM = FDD437X3NF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
